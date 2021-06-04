@@ -16,7 +16,7 @@
     components: {
       HelloWorld
     },
-    data() {ㅞㅡ
+    data() {
       return {
         articles: []
       }
