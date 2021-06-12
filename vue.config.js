@@ -1,4 +1,6 @@
 module.exports = {
     outputDir: './docs',
-    publicPath: '/goendang-wow',
+    publicPath:  process.env.NODE_ENV === 'production'
+      ? '/goendang-wow/'
+      : '/'
 }
