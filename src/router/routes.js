@@ -1,8 +1,9 @@
-import VueDefault from "../components/pages/VueDefault";
-import RouterTest from "../components/pages/RouterTest";
+// import VueDefault from "@/components/pages/VueDefault";
+import RouterTest from "@/components/pages/RouterTest";
+import MainPage from "@/pages/Main";
 
 const routes = [
-  { path: '/', component: VueDefault },
+  { path: '/', component: MainPage },
   { path: '/router-test', component: RouterTest },
 ]
 
